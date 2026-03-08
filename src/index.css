@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+@layer base {
+
+  html {
+    --color-bg: #ffffff;        
+    --color-text: #0D1337;      
+  }
+  
+  html.dark {
+    --color-bg: #0D1337;        
+    --color-text: #ffffff; 
+     
+  }
+}
+/** Ovde samo samo rekli ako je html, definisemo text/bg 
+ako je html.dark, definisemo za dark text/bg
+classu dark dodajemo i brisemo sa useEffcet u Navigacaiji
+**/
+
+
+
