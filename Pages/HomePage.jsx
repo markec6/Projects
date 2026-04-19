@@ -9,6 +9,7 @@ import Footer from '../components/Footer'
 
 function HomePage() {
   return (
+    // finished 
     <div className='pt-[70px] md:pt-[50px] '>
         <HeroSec />
         <Features/>
